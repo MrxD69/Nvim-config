@@ -7,6 +7,8 @@ if vim.g.neovide then
   vim.g.neovide_opacity = 0.85
   vim.g.transparency = 0.85
 
+  vim.o.guifont = "JetBrainsMono Nerd Font:h12"
+
   --vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
   --vim.api.nvim_set_hl(0, "NormalNC", { bg = "NONE" })
   vim.api.nvim_set_hl(0, "SignColumn", { bg = "NONE" })

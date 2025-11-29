@@ -9,3 +9,4 @@ vim.opt.updatetime = 200
 
 -- keep the cursor a block even in insert mode
 vim.opt.guicursor = "n-v-c:block,i-ci:block"
+vim.opt.cursorline = false
